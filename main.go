@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/cgascoig/intersight-go-example/pkg/intersight"
+	"github.com/cgascoig/intersight-go-sdk/intersight"
 )
 
 func main() {
