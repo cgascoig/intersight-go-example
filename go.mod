@@ -2,11 +2,12 @@ module github.com/cgascoig/intersight-go-example
 
 go 1.17
 
-require golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f
+require github.com/cgascoig/intersight-go-sdk/intersight v1.0.9-4870
 
 require (
 	github.com/golang/protobuf v1.4.2 // indirect
 	golang.org/x/net v0.0.0-20200822124328-c89045814202 // indirect
+	golang.org/x/oauth2 v0.0.0-20210218202405-ba52d332ba99 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 )
