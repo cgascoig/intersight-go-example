@@ -1,15 +1,38 @@
-# intersight-go-example
+# Intersight Go SDK Example
 
-This is a very simple example using the Intersight Go SDK from https://github.com/CiscoDevNet/terraform-provider-intersight/tree/master/intersight_gosdk. 
+This repo contains an extremely simple example of how to use the Intersight Go SDK. It uses the unofficial SDK version published at [https://github.com/cgascoig/intersight-go-sdk] as it should be easier to import without needing to be vendored in. 
 
-To run the example:
+# Usage
+
+## Building
+
+If you have GNU make 4.0 or later, just use the Makefile:
 
 ```
-export IS_KEY_ID="<Intersight API Key ID>"
-export IS_KEY_FILE="<Intersight API Private Key File>"
-go run .
+make
 ```
 
-## Background
+(MacOS only includes make 3.8, so you can either install a newer version from [homebrew](https://brew.sh/) (`brew install make`) or use the `go build` method below)
 
-The contents of https://github.com/CiscoDevNet/terraform-provider-intersight/tree/master/intersight_gosdk have been copied into pkg/intersight in this repository and the go.mod/go.sum files removed.
+Instead of using the Makefile, you can just build manually:
+
+```
+go build -o "intersight-go-example" ./
+```
+
+Note: The SDK is large and the first build can take a while (e.g. 13mins on a 2018 MacBook Pro). Subsequent builds should be quicker.
+
+## Running the example
+
+To run, first set some environment variables for your Intersight API Key ID and the path to your Intersight API Key file:
+
+```
+export IS_KEY_ID="123456789012345678901234/123456789012345678901234/123456789012345678901234"
+export IS_KEY_FILE="/path/to/intersight-api-key.pem"
+```
+
+Finally, run the example:
+
+```
+./intersight-go-example
+```
