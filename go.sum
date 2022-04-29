@@ -52,6 +52,8 @@ github.com/cgascoig/intersight-go-sdk/intersight v1.0.9-6207 h1:vaiAq2RlSGPr0HKE
 github.com/cgascoig/intersight-go-sdk/intersight v1.0.9-6207/go.mod h1:x/O42lqXA+UQmupR3UT2ySZUutjM61DOAdqapfPLbz4=
 github.com/cgascoig/intersight-go-sdk/intersight v1.0.9-6341 h1:9cjRfgpOP/1A5/lKHwbasXXd2WsYLn1EqGzPnUHnxeU=
 github.com/cgascoig/intersight-go-sdk/intersight v1.0.9-6341/go.mod h1:x/O42lqXA+UQmupR3UT2ySZUutjM61DOAdqapfPLbz4=
+github.com/cgascoig/intersight-go-sdk/intersight v1.0.9-6484 h1:bwNJluVA9ShofK8Mvky9o5iIQ3APNMpB5IIDD9llpy0=
+github.com/cgascoig/intersight-go-sdk/intersight v1.0.9-6484/go.mod h1:x/O42lqXA+UQmupR3UT2ySZUutjM61DOAdqapfPLbz4=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
 github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=
